@@ -24,7 +24,7 @@ Anomaly detection will get metrics from Telemetry, before modifying the configur
 If your python version is greater than 3.0, run follow command to copy the template configuration file to ```/etc/```,otherwise please skip this step, because the template configuration file has already been copied to the ```/etc/anomaly-detection``` by pip tool automatically.
 ```
 # please note the python version
-$ cp /usr/local/lib/python3.5/dist-packages/etc/anomaly_detection /etc
+$ cp -r /usr/local/lib/python3.5/dist-packages/etc/anomaly_detection /etc
 ```
 
 ## Startup Services
